@@ -5,8 +5,11 @@
 body
 {
     font-family: Lato;
-    background-color: #F7F9FC;
     text-decoration: none;
+    background-image: url(Images/bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 150px;
 }
 
 
@@ -17,7 +20,7 @@ h1 {
     font-weight: 50%;
     text-align: center;
     letter-spacing: 5px;
-    margin-top: 50px;
+    margin-top: 150px;
     transition: 1.5s;
 }
 
@@ -53,13 +56,6 @@ h1:hover
 }
 
 
-.ban 
-{
-    background-image: url(images/bg.png);
-  height: 500px;
-  background-repeat: no-repeat; 
-}
-
 .conteneur1
 {
     margin: 20px auto;
@@ -72,9 +68,6 @@ h1:hover
    margin: 10px;
    text-align: center;
 }
-
-
-
 
 
 
@@ -144,7 +137,7 @@ a:hover
     border: solid;
    border-color: #7fc9ff;
    color: white;
-   font-size: 35px;
+   font-size: 33px;
    min-width: 400px;
 }
 
